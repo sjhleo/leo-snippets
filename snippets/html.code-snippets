@@ -1,1 +1,122 @@
-{}
+{
+    "i-input": {
+        "prefix": "input",
+        "body": [
+            "<i-input v-model=\"${1:}\" type=\"daterange\" placeholder=\"${0:}\">",
+            "</i-input>"
+        ],
+        "description": "view-design 'i-input' 组件"
+    },
+    "i-date": {
+        "prefix": "date",
+        "body": [
+            "<i-date-picker v-model=\"${0:}\" type=\"daterange\" placeholder=\"Select date\">",
+            "</i-date-picker>"
+        ],
+        "description": "view-design 'i-date' 组件"
+    },
+    "i-modal": {
+        "prefix": "modal",
+        "body": [
+            "<i-modal  class=\"diy-modal\" title=\"模态框\" v-model=\"show\" :mask-closable=\"false\" :transfer=\"false\">",
+            "\t${0: }",
+            "</i-modal>"
+        ],
+        "description": "view-design 'i-modal' 组件"
+    },
+    "i-dropdown": {
+        "prefix": "drop",
+        "body": [
+            "<i-dropdown  @on-click=\"${0:}\">",
+            "\t${1: }",
+            "\t<i-dropdown-menu slot=\"list\">",
+            "\t\t<i-dropdown-item name=\"\"></i-dropdown-item>",
+            "\t</i-dropdown-menu>",
+            "</i-dropdown>"
+        ],
+        "description": "view-design 'i-dropdown' 组件"
+    },
+    "i-upload": {
+        "prefix": "upload",
+        "body": [
+            "<i-upload  :on-success=\"${0:}\" :action=\"${1:url}\">",
+            "</i-upload>"
+        ],
+        "description": "view-design 'i-upload' 组件"
+    },
+    "i-table": {
+        "prefix": "table",
+        "body": [
+            "<i-table  class=\"diy-table\" border  :columns=\"${2:}\" :data=\"${1:}\" @on-selection-change=\"${0}\">",
+            "\t<template slot-scope=\"{ row, index }\" slot=\"action\">",
+            "\t</template>",
+            "</i-table>"
+        ],
+        "description": "view-design 'i-table' 组件"
+    },
+    "i-select": {
+        "prefix": "select",
+        "body": [
+            " <i-select v-model=\"${0:}\">",
+            "\t<i-option v-for=\"${1:}\"  :key=\"${2:}\" :value=\"${3:}\">",
+            "\t</i-option>",
+            "</i-select>"
+        ],
+        "description": "view-design 'i-select' 组件"
+    },
+    "i-form": {
+        "prefix": "form",
+        "body": [
+            "<i-form label-colon :label-width=\"80\">",
+            "\t<i-form-item label=\"${0:}\">",
+            "\t</i-form-item>",
+            "</i-form>"
+        ],
+        "description": "view-design 'i-form' 组件"
+    },
+    "i-page": {
+        "prefix": "page",
+        "body": [
+            "<i-page show-elevator show-sizer show-total  class=\"diy-page\" :total=\"${0:}\" :current=\"${1:}\" :page-size=\"${2:}\" @on-change=\"onPageIndexChange\" @on-page-size-change=\"onPageSizeChange\">",
+            "</i-page>"
+        ],
+        "description": "view-design 'i-page' 组件"
+    },
+    "i-spin": {
+        "prefix": "spin",
+        "body": [
+            "<i-spin fix v-show=\"${0:}\">",
+            "\t<i class=\"spin-icon-load ivu-icon\"></i>",
+            "</i-spin>"
+        ],
+        "description": "view-design 'i-spin' 组件"
+    },
+    "i-poptip": {
+        "prefix": "poptip",
+        "body": [
+            "<i-poptip confirm transfer placement=\"${0:}\" title=\"${1:}?\" @on-ok=\"${2:}\">",
+            "</i-poptip>"
+        ],
+        "description": "view-design 'i-poptip' 组件"
+    },
+    "i-checkbox": {
+        "prefix": "checkbox",
+        "body": [
+            "<i-checkbox-group v-model=\"${0:}\">",
+            "\t<i-checkbox :label=\"${1:}\"  v-for=\"${2:}\" :key=\"${3:}\">",
+            "\t\t<span>选项</span>",
+            "\t</i-checkbox>",
+            "</i-checkbox-group>"
+        ],
+        "description": "view-design 'i-checkbox' 组件"
+    },
+    "i-radio": {
+        "prefix": "radio",
+        "body": [
+            "<i-radio-group v-model=\"${0:}\" type=\"button\">",
+            "\t<i-radio label=\"${1:}\" v-for=\"${2:}\" :key=\"${3:}\">>选项</i-radio>",
+            "</i-radio-group>"
+        ],
+        "description": "view-design 'i-radio' 组件"
+    }
+}

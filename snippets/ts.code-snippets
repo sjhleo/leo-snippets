@@ -8,7 +8,7 @@
             "export default class ${1:MyComponent} extends Component{",
             "}"
         ],
-        "description": "Code snippet for 'MyComponent'"
+        "description": "组件ts类"
     },
     "MyService": {
         "prefix": "ms",
@@ -18,11 +18,21 @@
             "export default class ${0:MyService} extends CommonService {",
             "}"
         ],
-        "description": "Code snippet for 'MyService'"
+        "description": "业务service类"
     },
     "MyFunction": {
         "prefix": "mf",
         "body": ["public MyFunction() {", "\t${0:// TODO}", "}"],
-        "description": "Code snippet for 'MyService'"
+        "description": "类方法method"
+    },
+    "console.log": {
+        "prefix": "cl",
+        "body": ["console.log(${0:})"],
+        "description": "console.log"
+    },
+    "for in": {
+        "prefix": "fin",
+        "body": ["for(let item in ${0:obj}) {", "\t${1:}", "}"],
+        "description": "for in 循环"
     }
 }

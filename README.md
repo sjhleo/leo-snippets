@@ -7,13 +7,19 @@
 ### html
 
 ```html
-input : "view-design 'i-input' 组件", data: "view-design 'i-date' 组件", modal:
-"view-design 'i-modal' 组件", dropdown: "view-design 'i-dropdown' 组件", upload:
-"view-design 'i-upload' 组件", table: "view-design 'i-table' 组件", select:
-"view-design 'i-select' 组件", form: "view-design 'i-form' 组件", page:
-"view-design 'i-page' 组件", spin: "view-design 'i-spin' 组件", poptip:
-"view-design 'i-poptip' 组件", checkbox: "view-design 'i-checkbox' 组件", radio:
-"view-design 'i-radio' 组件"
+input: "view-design 'i-input' 组件"
+date: "view-design 'i-date' 组件"
+modal: "view-design 'i-modal' 组件"
+dropdown: "view-design 'i-dropdown' 组件"
+upload: "view-design 'i-upload' 组件"
+table: "view-design 'i-table' 组件"
+select: "view-design 'i-select' 组件"
+form: "view-design 'i-form' 组件"
+page: "view-design 'i-page' 组件"
+spin: "view-design 'i-spin' 组件"
+poptip:"view-design 'i-poptip' 组件"
+checkbox: "view-design 'i-checkbox' 组件" 
+radio: "view-design 'i-radio' 组件"
 ```
 
     ...待完善
@@ -99,7 +105,8 @@ absolute
 
 ```scss
 position: absolute;
-top:  ;
+top: ;
 left: ;
 ```
+
     ...待完善

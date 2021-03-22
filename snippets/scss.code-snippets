@@ -1,0 +1,41 @@
+{
+    "size": {
+        "prefix": "size",
+        "body": ["width:${0:100%;}", "height:${1:100%;}"],
+        "description": "Code snippet for 'size'"
+    },
+    "cflex": {
+        "prefix": "cflex",
+        "body": [
+            "display:flex;",
+            "flex-direction: column;",
+            "align-items: center;",
+            "overflow: hidden;"
+        ],
+        "description": "Code snippet for 'cflex'"
+    },
+    "bg-img": {
+        "prefix": "bg-img",
+        "body": [
+            "background-image:url(${0:  });",
+            "background-repeat: no-repeat;",
+            "background-position: center;",
+            "background-size: 100% 100%;"
+        ],
+        "description": "Code snippet for 'bg-img'"
+    },
+    "ellipsis": {
+        "prefix": "ell",
+        "body": [
+            "overflow: hidden;",
+            "text-overflow: ellipsis;",
+            "white-space: nowrap;"
+        ],
+        "description": "Code snippet for 'ellipsis'"
+    },
+    "absolute": {
+        "prefix": "abs",
+        "body": ["position: absolute;", "top: ${0:  };", "left: ${1:  };"],
+        "description": "Code snippet for 'absolute'"
+    }
+}

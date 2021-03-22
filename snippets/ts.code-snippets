@@ -1,0 +1,28 @@
+{
+    "MyComponent": {
+        "prefix": "mc",
+        "body": [
+            "import { component, Component, config } from \"@egova/flagwind-web\";",
+            "import \"./index.scss\";",
+            "@component({template: require(\"./index.html\"),components: {}})",
+            "export default class ${1:MyComponent} extends Component{",
+            "}"
+        ],
+        "description": "Code snippet for 'MyComponent'"
+    },
+    "MyService": {
+        "prefix": "ms",
+        "body": [
+            "import serviceHandler from \"@/decorators/service-handler\";",
+            "import { CommonService } from \"@/services\";",
+            "export default class ${0:MyService} extends CommonService {",
+            "}"
+        ],
+        "description": "Code snippet for 'MyService'"
+    },
+    "MyFunction": {
+        "prefix": "mf",
+        "body": ["public MyFunction() {", "\t${0:// TODO}", "}"],
+        "description": "Code snippet for 'MyService'"
+    }
+}
